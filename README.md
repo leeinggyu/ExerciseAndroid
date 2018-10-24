@@ -7,7 +7,7 @@ $ git checkout -b [브랜치 이름]
 $ git add .
 $ git commit -m "[커밋 메시지]"
 $ git push origin [브랜치 이름]
- 웹에서 merge 요청
+  웹에서 merge 요청
 $ git merge master (내 branch로 받아오는 작업)
 ```
 

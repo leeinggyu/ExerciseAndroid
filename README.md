@@ -202,7 +202,7 @@ ex) <https://github.com>
 캡션을 넣으시고 싶은 경우에는 파일 링크 앞에 느낌표와 대괄호를 이용하여 적습니다(![])
 ex) ![테스트이미지](https://github.com/cliche90/markdown_tutorial/blob/master/github_logo.png?raw=true)
 ```
->- ![깃허브 이미지](https://github.com/cliche90/markdown_tutorial/blob/master/github_logo.png?raw=true)
+![깃허브 이미지](https://github.com/cliche90/markdown_tutorial/blob/master/github_logo.png?raw=true)
 
 ### 가로선 넣기
 ```bash

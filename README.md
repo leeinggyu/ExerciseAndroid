@@ -66,3 +66,32 @@ $ git remote -v
 3. local과 remote repository 연결 (일반적으로 원격저장소 이름은 origin으로 세팅함)
 $ git remote add origin [깃 원격 저장소 주소]
 ```
+
+### git branch
+```bash
+1. branch 생성(HEAD 에 생김)
+$ git branch [브랜치이름]  
+
+1-1. 특정 위치에 branch 생성
+$ git branch -f [브랜치이름] [커밋아이디]
+
+2. 로컬 브랜치 확인
+$ git branch
+$ git branch -v (해당 브랜치의 commit ID도 보임)
+
+3. 원격 브랜치 확인
+$ git branch -r 
+
+4. master로 이동 후 merge
+$ git checkout -f master
+$ git merge [브랜치이름]
+```
+
+### git push
+```bash
+$ git push origin master 
+$ git push --force 
+```
+
+### git pull
+> $ git pull

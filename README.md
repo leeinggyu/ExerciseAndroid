@@ -20,3 +20,10 @@ git init을 잘못한 경우엔 .git을 삭제하면 된다.
 ```
 ### git 저장소 상태 보기
 >$ git status
+
+### 인덱스 추가
+```bash
+$ git add . 
+or
+$ git add [커밋할 파일명]
+```

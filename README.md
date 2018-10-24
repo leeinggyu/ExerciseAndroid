@@ -18,3 +18,5 @@ $ cd sample/
 $ git init
 git init을 잘못한 경우엔 .git을 삭제하면 된다.
 ```
+### git 저장소 상태 보기
+> 

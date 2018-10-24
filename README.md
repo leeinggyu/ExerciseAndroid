@@ -111,6 +111,7 @@ $ git push origin [태깅]
 >- 실 배포버전을 위한 용도
 >- 태깅하고 push하면 github의 release에 올라감
 >- 태깅하고 commit해도 HEAD위치가 갱신되지 않는다.
+***
 
 ## Markdown 문법
 ### 제목

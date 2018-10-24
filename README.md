@@ -44,3 +44,12 @@ logs/
 
 ### Log 확인
 > $ git log --oneline --decorate --graph
+
+### 이전 상태로 변경 예
+$ git reset -- [파일이름]
+$ git reset --hard [커밋아이디]
+$ git reset --hard -> 마지막 commit으로 돌아갈때
+$ git reset --hard HEAD^ 한단계 앞
+$ git reset --hard HEAD^^ 두단계 앞 (git reset --hard HEAD~2)
+$ git reset --hard HEAD^2 (두번째 부모)
+>- (파일 변경사항은 그대로 두고) add 혹은 commit을 뒤로 돌아가게 하는 용도

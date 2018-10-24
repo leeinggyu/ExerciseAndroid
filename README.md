@@ -46,10 +46,23 @@ logs/
 > $ git log --oneline --decorate --graph
 
 ### 이전 상태로 변경 예
+```bash
 $ git reset -- [파일이름]
 $ git reset --hard [커밋아이디]
 $ git reset --hard -> 마지막 commit으로 돌아갈때
 $ git reset --hard HEAD^ 한단계 앞
 $ git reset --hard HEAD^^ 두단계 앞 (git reset --hard HEAD~2)
 $ git reset --hard HEAD^2 (두번째 부모)
+```
 >- (파일 변경사항은 그대로 두고) add 혹은 commit을 뒤로 돌아가게 하는 용도
+
+### 원격 저장소 연결
+```bash
+1. 원격 저장소 확인
+$ git remote -v
+
+2. github에서 repository 생성
+
+3. local과 remote repository 연결 (일반적으로 원격저장소 이름은 origin으로 세팅함)
+$ git remote add origin [깃 원격 저장소 주소]
+```

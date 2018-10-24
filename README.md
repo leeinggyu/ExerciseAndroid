@@ -98,3 +98,16 @@ $ git push --force
 >- pull = fetch + merge
 >- fetch : 원격에서 local 저장소로 가져옴
 >- merge : local 저장소로 가져온 내용을 Working Directory에 반영 및 Index에 적용하는 것 (그리하여 git status 명령어로 확인시에 변경사항이 체크되지 않는 것임)
+
+### git clone
+>$ git clone [깃 원격 저장소 주소] [로컬 원격 저장소 경로]
+>- remote 주소 설정이 자동으로 세팅됨
+
+### git tag
+```bash
+$ git tag [태깅] [커밋아이디]
+$ git push origin [태깅] 
+```
+>- 실 배포버전을 위한 용도
+>- 태깅하고 push하면 github의 release에 올라감
+>- 태깅하고 commit해도 HEAD위치가 갱신되지 않는다.

@@ -29,7 +29,7 @@ $ git add [커밋할 파일명]
 ```
 ### Commit
 >$ git commit -m "[커밋메시지]"
-- 의미있는(논리적인 한가지) 작업을 한가지 했으면 commit을 해라
+>- 의미있는(논리적인 한가지) 작업을 한가지 했으면 commit을 해라
 
 ### .gitignore
 ```bash

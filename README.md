@@ -1,7 +1,7 @@
 # git명령어
 
 ### 일반적인 작업시 사용하는 명령어
-><pre>
+<pre>
 >$ cd [깃 로컬 저장소 경로]
 >$ git checkout -b [브랜치 이름]
 >$ git add .

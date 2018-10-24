@@ -41,3 +41,6 @@ $ git add [커밋할 파일명]
 logs/
 ```
 - 무시해야 하는 바이너리 파일 등을 .gitignore 파일에 기술하면 커밋에서 제외된다.
+
+### Log 확인
+> $ git log --oneline --decorate --graph

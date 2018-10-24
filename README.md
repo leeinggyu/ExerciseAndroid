@@ -94,4 +94,7 @@ $ git push --force
 ```
 
 ### git pull
-> $ git pull
+>$ git pull
+>- pull = fetch + merge
+>- fetch : 원격에서 local 저장소로 가져옴
+>- merge : local 저장소로 가져온 내용을 Working Directory에 반영 및 Index에 적용하는 것 (그리하여 git status 명령어로 확인시에 변경사항이 체크되지 않는 것임)

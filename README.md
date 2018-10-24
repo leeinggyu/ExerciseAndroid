@@ -10,7 +10,7 @@ $ git push origin [브랜치 이름]
 - 웹에서 merge 요청
 $ git merge master (내 branch로 받아오는 작업)
 ```
-
+### 새로운 로컬 저장소 만들기
 ```bash
 $ cd Desktop
 $ mkdir sample

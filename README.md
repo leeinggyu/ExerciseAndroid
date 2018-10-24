@@ -204,3 +204,21 @@ ex) ![테스트이미지](https://github.com/cliche90/markdown_tutorial/blob/mas
 ```
 >- ![깃허브 이미지](https://github.com/cliche90/markdown_tutorial/blob/master/github_logo.png?raw=true)
 
+### 가로선 넣기
+```bash
+가로선의 경우 하이픈(-), 별(*), 언더스코어(_) 중 아무 것이나 연달아 세 개 이상 입력하면 적용됩니다.
+    ex) ------------------
+        ***
+        _______
+---
+```
+>- 위와 같이 적용됩니다.
+
+### 강제 개행
+```bash
+해당 Editor의 경우 그냥 줄을 바꾸어 줄 경우 적용됩니다.
+    일반적으로 Markdown에서는 HTML 문법도 사용 가능하므로 <br></br>을 이용해서도 개행이 가능합니다.
+    ex) 1행<br></br>2행
+```
+>- 아래 내용은 위의 예시대로 작성했을 경우 적용되는 내용입니다.<br>
+> 1행<br></br>2행

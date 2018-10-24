@@ -11,3 +11,10 @@ $ git push origin [브랜치 이름]
 $ git merge master (내 branch로 받아오는 작업)
 ```
 
+```bash
+$ cd Desktop
+$ mkdir sample
+$ cd sample/
+$ git init
+git init을 잘못한 경우엔 .git을 삭제하면 된다.
+```

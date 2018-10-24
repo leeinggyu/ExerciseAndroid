@@ -210,7 +210,6 @@ ex) ![테스트이미지](https://github.com/cliche90/markdown_tutorial/blob/mas
 ex) --------
     ***
     _______
----
 ```
 ***
 >- 위와 같이 적용됩니다.

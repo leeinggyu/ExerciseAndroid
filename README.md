@@ -183,6 +183,22 @@ ex) > 인용문구
 이메일 링크는 양쪽을 꺾쇠 괄호(<>)로 묶어 사용합니다.
 ex) <test@test.com>
 ```
->- [깃헙](https://github.com)
+>- <test@test.com>
 
+### URL 링크
+```bash
+URL 링크의 경우도 양쪽을 꺾쇠 괄호(<>)로 묶어 사용합니다. 만일 URL 대신 다른 내용을 링크 내용으로 사용하고 싶다면 링크 앞에 대괄호([]) 안에 사용하고자 하는 내용을, 뒤쪽에 소괄호(()) 안에 링크 주소를 입력합니다.
+ ex) <https://github.com>
+     [깃허브](https://github.com)
+```
+>- <https://github.com>
+>- [깃허브](https://github.com)
+
+### 이미지 넣기
+```bash
+이미지의 경우 소괄호(()) 안에 이미지의 URL을 넣으면 적용됩니다.
+캡션을 넣으시고 싶은 경우에는 파일 링크 앞에 느낌표와 대괄호를 이용하여 적습니다(![])
+ex) ![테스트이미지](https://github.com/cliche90/markdown_tutorial/blob/master/github_logo.png?raw=true)
+```
+>- ![깃허브 이미지](https://github.com/cliche90/markdown_tutorial/blob/master/github_logo.png?raw=true)
 
